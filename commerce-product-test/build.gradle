@@ -11,10 +11,10 @@ dependencies {
 	testIntegrationCompile project(":apps:commerce:commerce-product-type-simple")
 }
 
-if (!System.getenv("JENKINS_HOME")) {
-	apply plugin: "com.liferay.poshi.runner.resources.defaults"
-
-	poshiRunnerResources {
-		baseNameDir "commerce", "src/testFunctional"
-	}
-}
+//if (!System.getenv("JENKINS_HOME")) {
+//	apply plugin: "com.liferay.poshi.runner.resources.defaults"
+//
+//	poshiRunnerResources {
+//		baseNameDir "commerce", "src/testFunctional"
+//	}
+//}
